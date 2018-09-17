@@ -8,6 +8,8 @@ This is particularly problematic for data sent encoded as 'multipart/form-data'.
 Basically, a request sent (with files and/or non-file data) via PUT should be 
 parsed using the same functions used for requests sent via POST.
 
+This is an [OctoberCMS](https://github.com/octobercms/october) plugin which fixes this problem. 
+
 # The Problem
 Suppose you are calling a REST API which accepts two parameters: `title` and `photo`.  
 This API must be called via `PUT` method to update a resource.  
