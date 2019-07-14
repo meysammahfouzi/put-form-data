@@ -1,4 +1,4 @@
-<?php namespace MeysamMahfouzi\PutFormData;
+<?php namespace Meysam\PutFormData;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -42,7 +42,7 @@ class Plugin extends PluginBase
     {
         // Register middleware
         $this->app['Illuminate\Contracts\Http\Kernel']
-            ->pushMiddleware('MeysamMahfouzi\PutFormData\Classes\FixputMiddleware');
+            ->pushMiddleware('Meysam\PutFormData\Classes\FixputMiddleware');
     }
 
     /**
@@ -65,7 +65,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            'meysammahfouzi.putformdata.some_permission' => [
+            'meysam.putformdata.some_permission' => [
                 'tab' => 'PutFormData',
                 'label' => 'Some permission'
             ],

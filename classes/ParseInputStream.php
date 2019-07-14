@@ -1,4 +1,4 @@
-<?php namespace MeysamMahfouzi\PutFormData\Classes;
+<?php namespace Meysam\PutFormData\Classes;
 
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\File\UploadedFile;

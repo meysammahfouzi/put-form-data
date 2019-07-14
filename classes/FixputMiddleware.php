@@ -1,11 +1,11 @@
-<?php namespace MeysamMahfouzi\PutFormData\Classes;
+<?php namespace Meysam\PutFormData\Classes;
 
-use MeysamMahfouzi\PutFormData\Classes\ParseInputStream;
+use Meysam\PutFormData\Classes\ParseInputStream;
 use Closure;
 
 /**
  * Class FixputMiddleware
- * @package MeysamMahfouzi\PutFormData\Classes
+ * @package Meysam\PutFormData\Classes
  *
  * This middleware parses and appends form-data to request if method is not POST
  */
